@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Meydan",
+    "slug": "meydan",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "meydan",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.meydan.football"
+    },
+    "android": {
+      "package": "com.meydan.football",
+      "adaptiveIcon": {
+        "backgroundColor": "#07110F"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": ["expo-router", "expo-secure-store"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
